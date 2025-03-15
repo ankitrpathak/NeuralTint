@@ -25,11 +25,22 @@ st.set_page_config(page_title="NeuralTint", page_icon="🎨", layout="centered")
 st.markdown("""
     <style>
     .stApp { background-color: #f5f5f5; }
-    .title { text-align: center; font-size: 32px; font-weight: bold; color: #222; }
-    .subtitle { text-align: center; font-size: 18px; color: #444; }
+    .title { 
+        text-align: center; 
+        font-size: 34px; /* Slightly larger for better readability */
+        font-weight: bold; 
+        color: #111; /* Darker text for strong contrast */
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+    }
+    .subtitle { 
+        text-align: center; 
+        font-size: 18px; 
+        color: #222; /* Darker than #444 to improve contrast */
+    }
     .uploaded-image { border-radius: 10px; }
     </style>
 """, unsafe_allow_html=True)
+
 
 st.markdown("<h1 class='title'>NeuralTint - Restore Colors Instantly</h1>", unsafe_allow_html=True)
 st.markdown("<p class='subtitle'>Breathe color into your grayscale photos effortlessly!</p>", unsafe_allow_html=True)
