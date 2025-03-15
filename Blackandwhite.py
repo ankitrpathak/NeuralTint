@@ -75,9 +75,9 @@ if uploaded_file is not None:
     # Display results
     col1, col2 = st.columns(2)
     with col1:
-        st.image(image, caption="Grayscale Image", width=300, use_column_width=True)
+        st.image(image, caption="Grayscale Image", width=300, use_container_width=True)
     with col2:
-        st.image(Image.fromarray(cv2.cvtColor(colorized, cv2.COLOR_BGR2RGB)), caption="Colorized Image", width=300, use_column_width=True)
+        st.image(Image.fromarray(cv2.cvtColor(colorized, cv2.COLOR_BGR2RGB)), caption="Colorized Image", width=300, use_container_width=True)
     
     # Allow downloading the colorized image
     temp_file = tempfile.NamedTemporaryFile(delete=False, suffix=".png")
