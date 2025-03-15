@@ -1,4 +1,4 @@
-# NeuralTint - Restore Colors Instantly 🎨
+# [NeuralTint - Restore Colors Instantly](https://neuraltint.streamlit.app/) 🎨
 
 NeuralTint is an AI-powered tool that converts grayscale images into vibrant, colorized versions. This project utilizes OpenCV's deep learning module with a pre-trained Caffe model to restore colors effortlessly.
 
@@ -46,7 +46,7 @@ To deploy on **Streamlit Community Cloud**:
 
 ```
 NeuralTint/
-│── Blackandwhite.py                        # Main Streamlit app
+│── Blackandwhite.py               # Main Streamlit app
 │── colorization_deploy_v2.prototxt # Model configuration
 │── colorization_release_v2.caffemodel # Pre-trained model
 │── pts_in_hull.npy                # Cluster centers for model
