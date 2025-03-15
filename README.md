@@ -23,14 +23,14 @@ pip install -r requirements.txt
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/NeuralTint.git
+git clone https://github.com/ankitrpathak/NeuralTint.git
 cd NeuralTint
 ```
 
 ## Running the Streamlit App ▶️
 
 ```bash
-streamlit run app.py
+streamlit run Blackandwhite.py
 ```
 
 ## Deployment 🌍
@@ -40,13 +40,13 @@ To deploy on **Streamlit Community Cloud**:
 1. Push this project to GitHub.
 2. Go to [Streamlit Community Cloud](https://share.streamlit.io/) and log in.
 3. Click **Deploy an app** → Select your GitHub repo.
-4. Set `app.py` as the main entry point and deploy.
+4. Set `Blackandwhite.py` as the main entry point and deploy.
 
 ## Project Structure 📂
 
 ```
 NeuralTint/
-│── app.py                        # Main Streamlit app
+│── Blackandwhite.py                        # Main Streamlit app
 │── colorization_deploy_v2.prototxt # Model configuration
 │── colorization_release_v2.caffemodel # Pre-trained model
 │── pts_in_hull.npy                # Cluster centers for model
