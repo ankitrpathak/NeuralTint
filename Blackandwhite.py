@@ -25,8 +25,8 @@ st.set_page_config(page_title="NeuralTint", page_icon="🎨", layout="centered")
 st.markdown("""
     <style>
     .stApp { background-color: #f5f5f5; }
-    .title { text-align: center; font-size: 32px; font-weight: bold; color: #333; }
-    .subtitle { text-align: center; font-size: 18px; color: #666; }
+    .title { text-align: center; font-size: 32px; font-weight: bold; color: #222; }
+    .subtitle { text-align: center; font-size: 18px; color: #444; }
     .uploaded-image { border-radius: 10px; }
     </style>
 """, unsafe_allow_html=True)
