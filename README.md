@@ -4,7 +4,7 @@ NeuralTint is an AI-powered tool that converts grayscale images into vibrant, co
 
 ## Features 🚀
 
-- Upload a grayscale image (JPG, PNG, JPEG)
+- User have to upload a grayscale image (JPG, PNG, JPEG)
 - AI-based automatic colorization
 - Side-by-side grayscale vs. colorized preview
 - Download the colorized image with one click
